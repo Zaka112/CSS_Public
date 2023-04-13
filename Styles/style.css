@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size:medium;
+    font-weight: bold;
+    text-align: center;
+   }
+   body
+{
+  font-family: 'Calibri' ,sans-serif;
+  font-size: 20px;
+  width: 100%;
+  
+}
+.navbar
+{
+  padding: 0px 40px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+  background-color: blue;
+  
+}
+a
+{
+  text-decoration: none;  
+  color: white;
+}
+a:hover
+{
+  color: rgb(0, 133, 255);
+ 
+}
+a:active
+{
+  font-weight: bold;
+  color: rgb(0, 133, 255);
+ 
+}
+.navbar ul
+{
+ display:flex;
+ flex-wrap: no-wrap;
+ justify-content: space-around;
+ gap:50px;
+ align-items: center;
+ list-style-type: none;
+
+}
+
+.content-head
+{
+ padding: 40px;
+ display: flex;
+ flex-direction: column;
+ row-gap: 2rem;
+ flex-wrap: no-wrap;
+ justify-content: center;
+ align-items:center;
+ height: 70vh;
+ background-image: url('../Images/image1.jpg');
+ background-repeat: no-repeat;
+ background-size: 100%;
+ 
+}
+.content-head .content-heading
+{
+  font-size: 70px;
+  font-weight: bold;
+}
+.blue-text
+{
+   color:rgb(30, 0, 255);
+   font-size: 70px;
+  font-weight: bold;
+   
+}
+button {
+    padding: 10px;
+    width: 150px;
+    background-color:blueviolet;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+}
+.more-heading {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: start;
+}
+.content{
+    display: flex;
+    flex: 25% 50% 
+}
+.grid-container
+    {
+        display: grid;
+      grid-template-columns: repeat(4,1fr);
+      /* grid-template-columns: 25% 25% 25% 25%; */
+      grid-template-rows: 350px 220px;
+      margin-top: 2rem;
+     
+      
+     
+    }
+    .grid-item{
+        background-color: blue;
+        padding: 1rem;
+
+    }
+    .item1 {
+        background-color: blueviolet;
+    }
+    .item2{
+       background-image: url('../Images/image2.png');
+       background-repeat: no-repeat;
+        background-size: 100%;
+        grid-column: 2 /span 2 ;
+    }
+    .item3{
+        background-color: palevioletred;
+    }
+    
+    .item4{
+        background-color: red;
+        grid-column: 1 /span 2 ;
+    }
+    .item5{
+        /* background-image: url('https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-desktop-background-1691.jpg'); */
+        background-image: url('../Images/image3.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .item6{
+        background-color: lightblue;
+
+    }
+    #item1, #item3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 350px;
+        gap:10px;
+        color:white;
+                
+    }
+    
+    #item4, #item6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       min-height: 220px;
+        gap:10px;
+        color:white;
+                
+    }
+     h1 {
+        font-size: 30px;
+        
+    }
+    .bottom-content{
+        display: flex;
+        justify-content: stretch;
+        margin: 2rem 0rem;
+        min-height: 350px;
+       
+    }
+    .bottom-item1{
+        background-image: url('../Images/image4.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 25%;
+    }
+    .bottom-item2{
+        background-color: blueviolet;
+        width: 25%;
+    }
+    .bottom-item3{
+        background-image: url('../Images/image5.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 50%;
+
+    }
+    .item2-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 350px;
+        gap:10px;
+        color:white;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .footer-item h1{
+        margin: 1rem;
+        color: blueviolet;
+    }
+    h2{
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
